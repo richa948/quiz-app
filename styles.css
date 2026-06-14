@@ -1,0 +1,104 @@
+/* styles.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(180deg, #6cf7fe, #dbfe7b);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.quiz-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-style: italic;
+  font-weight: 900;
+  color: #7f1139;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 400px;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1,
+h2 {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #333333;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+li:hover {
+  background-color: #6200ea;
+}
+
+button {
+  padding: 10px;
+  background-color: #6200ea;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #3700b3;
+}
+
+#start-btn{
+   
+     height: 75px;
+    width: 200px;
+    font-size: larger;
+    margin-top: 5px;
+    background-color: rgb(31, 167, 31);
+    transition: background-color 0.3s;
+ 
+}
+
+#start-btn:hover{
+    background-color: green;
+     transform: scale(1.05);
+}
+
+#restart-btn{
+    margin-top: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+.selected {
+  background: green;
+  border: 2px solid #ffffff;
+}
